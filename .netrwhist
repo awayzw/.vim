@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/weizuo/Dropbox/report/CODES+ISSS/CODES13-wei/final_experiment/fdtd-2d'
 let g:netrw_dirhist_2='/Users/weizuo/Dropbox/report/CODES+ISSS/CODES13-wei/final_experiment/dynprog'
 let g:netrw_dirhist_3='/Users/weizuo/Dropbox/report/CODES+ISSS/CODES13-wei/experiment/seidel-2d'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='/Users/weizuo/Dropbox/codes/CODES13-wei_1/final_experimen
 let g:netrw_dirhist_6='/Users/weizuo/Dropbox/codes/CODES13-wei/final_experiment/jacobi-1d-imper'
 let g:netrw_dirhist_7='/Users/weizuo/Applications/pocc/ir/past/past/include'
 let g:netrw_dirhist_8='/Users/weizuo/.vim/bundle'
+let g:netrw_dirhist_9='/Users/weizuo/.vim/bundle/CuteErrorMarker'
