@@ -24,6 +24,8 @@ set ruler		" show the cursor position all the time
 set autoread		" auto read when file is changed from outside
 
 
+filetype off          " necessary to make ftdetect work on Linux
+syntax on
 filetype on           " Enable filetype detection
 filetype indent on    " Enable filetype-specific indenting
 filetype plugin on    " Enable filetype-specific plugins
@@ -313,6 +315,9 @@ let g:CommandTMaxHeight = 15
 
 " --- SuperTab
 let g:SuperTabDefaultCompletionType = "context"
+let g:SuperTabCompletionContexts = ['s:ContextText', 's:ContextDiscover']
+let g:SuperTabContextDiscoverDiscovery = ["&completefunc:<c-x><c-u>", "&omnifunc:<c-x><c-o>"]
+
 
 " --- EasyMotion
 "let g:EasyMotion_leader_key = '<Leader>m' " default is <Leader>w
@@ -328,3 +333,13 @@ let g:tagbar_autofocus = 1
 
 " --- PowerLine
 " let g:Powerline_symbols = 'fancy' " require fontpatcher
+"
+
+" --- SnipMate
+let g:snipMateAllowMatchingDot = 0
+
+" --- coffee-script
+au BufWritePost *.coffee silent CoffeeMake! -b | cwindow | redraw! " recompile coffee scripts on write
+
+" --- vim-gitgutter
+let g:gitgutter_enabled = 1
