@@ -1,11 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/Users/weizuo/Dropbox/report/CODES+ISSS/CODES13-wei/final_experiment/fdtd-2d'
-let g:netrw_dirhist_2='/Users/weizuo/Dropbox/report/CODES+ISSS/CODES13-wei/final_experiment/dynprog'
-let g:netrw_dirhist_3='/Users/weizuo/Dropbox/report/CODES+ISSS/CODES13-wei/experiment/seidel-2d'
-let g:netrw_dirhist_4='/Users/weizuo/Dropbox/report/CODES+ISSS/CODES13-wei/.svn'
-let g:netrw_dirhist_5='/Users/weizuo/Dropbox/codes/CODES13-wei_1/final_experiment/adi/report'
-let g:netrw_dirhist_6='/Users/weizuo/Dropbox/codes/CODES13-wei/final_experiment/jacobi-1d-imper'
-let g:netrw_dirhist_7='/Users/weizuo/Applications/pocc/ir/past/past/include'
-let g:netrw_dirhist_8='/Users/weizuo/.vim/bundle'
-let g:netrw_dirhist_9='/Users/weizuo/.vim/bundle/CuteErrorMarker'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/weizuo/Dropbox/online_course/algorithm/practise_code/a.out.dSYM'
+let g:netrw_dirhist_2='/Users/weizuo/tmp/min_cut'
+let g:netrw_dirhist_3='/Users/weizuo/Dropbox/aspdac16/aspdac16/sections'
+let g:netrw_dirhist_4='/Users/weizuo/Downloads/MobiHoc16/graphics'
+let g:netrw_dirhist_5='/Users/weizuo/Downloads/MobiHoc16/styles'
